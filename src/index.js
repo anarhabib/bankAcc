@@ -1,5 +1,5 @@
 import "./styles/main.css";
-import BankAccount from "./BankAccount";
+import BankAccount from "./bankAccount";
 
 const confrimBtn = document.getElementById("confrim");
 const name = document.getElementById("account");
@@ -57,4 +57,3 @@ confrimWithdrawBtn.addEventListener("click" , () => {
     withdraw.value = null;
 })
 
-module.exports = BankAccount;
