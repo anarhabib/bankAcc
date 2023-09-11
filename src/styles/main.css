@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{
+    padding: 10px 5px;
+background-color: rgba(40, 204, 40, 0.63);
+border: none;
+}
+.btn:hover{
+    background-color: rgba(15, 228, 15, 0.842);
+cursor: pointer;
+}
+header{
+    text-align: center;
+    margin: 20px 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;   
+}
+#actions{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;    
+}
+input{
+    padding: 10px;
+    outline: none;
+    
+}
+.d-none{
+    display: none !important;
+}
